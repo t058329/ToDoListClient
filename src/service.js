@@ -1,6 +1,5 @@
 import axios from 'axios';
-import dotenv from 'dotenv';
-dotenv.config();
+
 
 // axios.defaults.baseURL = 'http://localhost:5041';
 axios.defaults.baseURL=process.env.REACT_APP_API;
